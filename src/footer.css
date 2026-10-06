@@ -1,0 +1,18 @@
+footer div span{transition:color .18s ease,opacity .18s ease,transform .18s ease}
+footer div span:hover{color:#ffd34e;opacity:1;transform:translateX(3px)}
+footer .footer-contact{display:flex;align-items:center;gap:9px;color:inherit;font-size:14px;opacity:.75;text-decoration:none;transition:color .18s ease,opacity .18s ease,transform .18s ease}
+footer .footer-contact:hover{color:#ffd34e;opacity:1;transform:translateX(3px)}
+footer .footer-contact span{min-width:18px;color:#ffd34e;font-size:17px;opacity:1}
+.wa{display:grid;place-items:center}
+.wa svg{width:29px;height:29px;fill:currentColor}footer .footer-branch{padding:0;background:none;color:inherit;text-align:left;font-size:14px;font-weight:700;opacity:.75;overflow-wrap:anywhere;transition:color .18s ease,opacity .18s ease}
+footer .footer-branch:hover,footer .footer-branch:focus-visible{color:#ffd34e;opacity:1}
+footer .footer-branch:focus-visible{outline:2px solid #ffd34e;outline-offset:3px;border-radius:2px}
+@media(max-width:700px){
+  footer{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:12px;row-gap:24px}
+  footer>div:first-child{grid-column:1/-1}
+  footer>div:nth-child(2),footer>div:nth-child(3),footer>div:nth-child(4){grid-column:auto;min-width:0;align-items:flex-start}
+  footer>div:nth-child(2) span,footer .footer-branch{font-size:12px;line-height:1.4}
+  footer .footer-contact{align-items:flex-start;gap:4px;font-size:11px;line-height:1.35;overflow-wrap:anywhere;word-break:break-word}
+  footer .footer-contact span{min-width:14px;font-size:14px}
+  footer>small{grid-column:1/-1}
+}
