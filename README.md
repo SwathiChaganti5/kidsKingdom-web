@@ -17,3 +17,5 @@ npm run build
 - Responsive mobile navigation
 - Existing published school contact/branch/staff information
 - Published school image URLs for logo, gallery and staff/admission visuals
+
+Slide emoji artwork is provided by [Twemoji](https://github.com/twitter/twemoji), licensed under CC BY 4.0.
